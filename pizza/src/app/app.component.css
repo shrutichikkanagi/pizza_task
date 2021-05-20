@@ -1,0 +1,16 @@
+header{
+    background-color: gold;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.footer{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: gold;
+   text-align: center;
+}

@@ -1,0 +1,29 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h2>Orders Received</h2>
+  </div>
+  <div class="panel-body">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Customer Name</th>
+          <th>No.of Items Ordered</th>
+          <th>Total Amount</th>
+          <th>Status</th>
+          <th>change the status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let order of orders">
+          <td (click)="gotoDetail(order.id)">{{order.Customer_Name}}</td>
+          <td>{{order.No_Of_Items}}</td>
+          <td>{{order.Total}}</td>
+          <td>{{order.Status}}</td>
+          <td><button (click)="changeStatus(order.id)" class="btn btn-primary">Change the status</button>
+
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

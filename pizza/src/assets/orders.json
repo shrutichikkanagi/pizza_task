@@ -1,0 +1,65 @@
+[{
+    "id": 1,
+    "Customer_Name":"Rachel",
+    "No_Of_Items":2,
+    "Total":690,
+    "Status":"preparing",
+    "Delivery_Address":"NewYork",
+    "Items":[
+        {
+            "itemName":"Deluxe Veggie",
+            "itemPrice":320
+        },
+
+        {
+            "itemName":"Peppy Paneer",
+            "itemPrice":370
+        }
+    ]
+
+},
+
+{
+    "id": 2,
+    "Customer_Name":"Ross",
+    "No_Of_Items":2,
+    "Total":780,
+    "Status":"order delivered",
+    "Delivery_Address":"Tokyo",
+    "Items":[{
+        "itemName":"Cheese and corn",
+        "itemPrice":410
+    },
+
+    {
+        "itemName":"Peppy Paneer",
+        "itemPrice":370
+    }]
+
+},
+
+{
+    "id": 3,
+    "Customer_Name":"Joey",
+    "No_Of_Items":3,
+    "Total":1100,
+    "Status":"ready to serve",
+    "Delivery_Address":"Berlin",
+    "Items":[{
+        "itemName":"Deluxe Veggie",
+        "itemPrice":320
+    },
+
+    {
+        "itemName":"Peppy Paneer",
+        "itemPrice":370
+    },
+    {
+        "itemName":"Cheese and corn",
+        "itemPrice":410
+    }
+]
+    
+
+}
+]

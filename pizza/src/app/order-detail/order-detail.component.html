@@ -1,0 +1,22 @@
+<div class="container positioned">
+<div class="card" style="width: 30rem;">
+  
+  <div class="card-body">
+    <h5 class="card-title">{{order.Customer_Name}}</h5>
+    
+  </div>
+  <ul class="list-group list-group-flush">
+    
+    <li class="list-group-item" >
+      <div class="row" *ngFor="let item of order.Items">
+        <div class="col">{{item.itemName}}</div>
+      
+      <div class="col">{{item.itemPrice}}</div></div>
+    </li>
+    <li class="list-group-item" ><b>Amount: </b>{{order.Total}}</li>
+    <li class="list-group-item"><b>Delivery Adrees: </b>{{order.Delivery_Address}}</li>
+  </ul>
+  
+</div>
+<button class="btn btn-primary" style="margin-top: 10px;" (click)="goToList()">Back</button>
+</div>
